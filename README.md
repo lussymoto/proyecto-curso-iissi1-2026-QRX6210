@@ -2,10 +2,10 @@
 
 ## Miembros del grupo LX-XXX-X (sustituir)
 
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
+1. García Cabeza, Lucía
+1. Mao, Yanxi
+1. Farahat, Amal
+1. Gaitán Severo, Jorge
 
 ## 1. Introducción al problema
 

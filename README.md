@@ -23,10 +23,10 @@
 Como escritor, quiero poder crear y publicar mis propias historias, para que otros usuarios puedan leerlas
 
  2.LEER HISTORIAS
-Como usuario, quiero poder leer historias publicadas por otros usuarios, para disfrutar de diferentes tipos de contenido
+Como usuario, quiero poder leer historias publicadas por otros usuarios, para ver de diferentes tipos de contenido
 
 3. BUSCAR Y GUARDAR HISTORIAS
-Como lector, quiero poder encontrar historias que me interesen y guardarlas, para poder leerlas más adelante
+Como lector, quiero poder encontrar historias que me interesen y guardarlas, para poder leerlas más tarde
 
 ### 3.2. Usuarios del sistema
 

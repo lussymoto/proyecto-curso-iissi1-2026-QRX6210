@@ -1,6 +1,6 @@
 # Título Proyecto
 
-## Miembros del grupo LX-XXX-X (sustituir)
+## Miembros del grupo L3-ABS-6 (sustituir)
 
 1. García Cabeza, Lucía
 1. Mao, Yanxi
@@ -19,14 +19,23 @@
 
 ### 3.1. Requisitos generales
 
-1. CREAR Y PUBLICAR HISTORIAS
-Como escritor, quiero poder crear y publicar mis propias historias, para que otros usuarios puedan leerlas
+#### R.G.01. Crear y Publicar Historias
 
- 2.LEER HISTORIAS
-Como usuario, quiero poder leer historias publicadas por otros usuarios, para ver de diferentes tipos de contenido
+Como escritor,
+quiero poder crear y publicar mis propias historias,
+para que otros usuarios puedan leerlas
 
-3. BUSCAR Y GUARDAR HISTORIAS
-Como lector, quiero poder encontrar historias que me interesen y guardarlas, para poder leerlas más tarde
+#### R.G.02. Leer Historias
+
+Como usuario,
+quiero poder leer historias publicadas por otros usuarios,
+para ver de diferentes tipos de contenido
+
+#### R.G.03. Buscar y Guardar Historias
+
+Como lector,
+quiero poder encontrar historias que me interesen y guardarlas,
+para poder leerlas más tarde
 
 ### 3.2. Usuarios del sistema
 

@@ -167,6 +167,38 @@ quiero disponer de la siguiente información relacionada con mi cuenta:
 
 -Hilos guardados
 
+#### R.I.03. Información de los capítulos
+
+Como lector, 
+quiero disponer de la siguiente información sobre los capítulos de un fanfic:
+
+-Título del capítulo
+
+-Número de capítulo
+
+-Contenido
+
+-Fecha de publicación
+
+-Comentarios realizados en el capítulo
+
+#### R.I.04. Información de los hilos
+
+Como lector, 
+quiero disponer de la siguiente información sobre los hilos:
+
+-Título del hilo
+
+-Usuario que lo ha creado
+
+-Fanfic relacionado
+
+-Contenido
+
+-Fecha de creación
+
+-Respuestas de otros usuarios
+
 **Prueba de aceptación**
 - Descripción de la primera comprobación a realizar
 - Descripción de la segunda comprobación a realizar

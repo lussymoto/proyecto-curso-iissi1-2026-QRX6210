@@ -1,6 +1,6 @@
 # Título Proyecto
 
-## Miembros del grupo L3-ABS-6 (sustituir)
+## Miembros del grupo L3-ABS-6
 
 1. García Cabeza, Lucía
 1. Mao, Yanxi
@@ -14,6 +14,12 @@
 ## 2. Glosario de términos
 
 - Términos específicos del dominio del problema, ordenados alfabéticamente. Se valorará la presencia de información multimedia.
+  - Fanfic (Fan-fiction): Historia ficticia escrita por fans sobre otra historia ficticia; ya sea sobre una serie, película, cómic, etc...
+  - Escritor: Usuario que publica fanfics.
+  - Lector: Usuario que lee fanfics y/o publica comentarios e hilos.
+  - Fandom: La comunidad de fans detrás de un fenómeno, obra, artista, serie, película, videojuego o personalidad específica.
+  - Tag: Etiqueta que identifica una característica de un fanfic.
+  - Hilo: Espacio de discursión e intercambio de opiniones sobre un fanfic.
 
 ## 3. Visión general del sistema
 
@@ -43,11 +49,65 @@ para poder leerlas más tarde
 
 ### 4.1. Requisitos funcionales
 
-#### R.F.01. Título requisito funcional
+#### R.F.01. Comentarios por capítulo
 
-Como [tipo de usuario]
-quiero [servicio]
-para [razón]
+Como lector,
+quiero poder escribir y leer comentarios en los capítulos de un fanfic,
+para expresar mi opinión públicamente sobre cada capítulo por separado
+
+#### R.F.02. Seguir a escritores
+
+Como lector,
+quiero poder seguir a escritores que me gusten
+para recibir recomendaciones sobre sus historias
+
+#### R.F.03. Notificar novedades
+
+Como usuario,
+quiero recibir una notificación cuando alguien a quien sigo suba un fanfic nueva o cuando se actualice un fanfic que estoy leyendo
+
+#### R.F.04. Búsqueda avanzada
+
+Como usuario,
+quiero poder realizar búsquedas en el sistema con distintos filtros y criterios de ordenación,
+para encontrar con más facilidad lo que estoy buscando
+
+#### R.F.05. Recomendaciones
+
+Como lector,
+quiero recibir recomendaciones por el sistema de fanfics, escritores, fandoms e hilos que podrían gustarme en base a mi actividad en la página,
+para tener una experiencia personalizada que facilite descubrir partes de la página que me gusten
+
+#### R.F.06. Fanfics Favoritos 
+
+Como lector,
+quiero poder marcar fanfics como favoritos y acceder a ellos en su propia pestaña,
+para encontrarlos más fácilmente y recibir recomendaciones en base a ellos
+
+#### R.F.07. Crear Hilos 
+
+Como lector,
+quiero poder abrir un hilo sobre un fanfic que he leído,
+para crear un espacio en el que hablar sobre un tema de interés del fanfic
+
+#### R.F.08. Guardar Hilos 
+
+Como usuario,
+quiero poder guardar los hilos que me interesen
+para archivarlos y poder encontrarlos más tarde
+
+#### R.F.09. Ajustes de Notificaciones
+
+Como usuario,
+quiero poder editar la frecuencia con la que recibo notificaciones
+para modificar mi experiencia en el sistema
+
+#### R.F.10. Tags
+
+Como escritor,
+quiero poder añadir tags a los fanfics que escriba,
+para que los lectores puedan encontrar mi contenido en base a búsquedas avanzadas
+
 
 **Prueba de aceptación**
 - Descripción de la primera comprobación a realizar
@@ -70,9 +130,26 @@ para [razón]
 
 #### 4.1.2. Reglas de negocio
 
-##### R.N.01. Título regla negocio
+##### R.N.01. Permisos sin registrarse
 
-Descripción de la regla de negocio.
+Un usuario debe estar registrado con una cuenta para poder publicar fanfics, hilos y comentarios. Sin una cuenta, sólo se les permite leerlos.
+
+##### R.N.02. Número de cuentas por correo
+
+Un mismo correo electrónico tiene derecho a crear una única cuenta. 
+
+##### R.N.03. Número de fanfics por usuario
+
+Un usuario puede crear publicar distintos fanfics, pero un fanfic no puede tener más de un autor.
+
+##### R.N.04. Conservación de fanfics
+
+Si un usuario borra su cuenta, los fanfics que ha creado no son borrados.
+
+##### R.N.05. Capítulos vacíos
+
+Un capítulo no puede publicarse si está vacío, en cuyo caso, el fanfic sólo acualizará el resto de cambios realizados.
+
 
 ### 4.2. Mapa de historias de usuario (opcional)
 

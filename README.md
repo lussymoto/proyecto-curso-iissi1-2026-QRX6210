@@ -43,6 +43,12 @@ Como lector,
 quiero poder encontrar historias que me interesen y guardarlas,
 para poder leerlas más tarde
 
+#### R.G.04. Valorar Historias
+
+Como lector,
+quiero poder comentar las historias, 
+para compartir mi opinión 
+
 ### 3.2. Usuarios del sistema
 
 ## 4. Catálogo de requisitos

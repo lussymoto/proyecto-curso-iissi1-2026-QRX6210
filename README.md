@@ -29,25 +29,25 @@
 
 Como escritor,
 quiero poder crear y publicar mis propias historias,
-para que otros usuarios puedan leerlas
+para que otros usuarios puedan leerlas.
 
 #### R.G.02. Leer Historias
 
 Como usuario,
 quiero poder leer historias publicadas por otros usuarios,
-para ver de diferentes tipos de contenido
+para ver de diferentes tipos de contenido.
 
 #### R.G.03. Buscar y Guardar Historias
 
 Como lector,
 quiero poder encontrar historias que me interesen y guardarlas,
-para poder leerlas más tarde
+para poder leerlas más tarde.
 
 #### R.G.04. Valorar Historias
 
 Como lector,
 quiero poder comentar las historias, 
-para compartir mi opinión 
+para compartir mi opinión.
 
 ### 3.2. Usuarios del sistema
 
@@ -59,60 +59,60 @@ para compartir mi opinión
 
 Como lector,
 quiero poder escribir y leer comentarios en los capítulos de un fanfic,
-para expresar mi opinión públicamente sobre cada capítulo por separado
+para expresar mi opinión públicamente sobre cada capítulo por separado.
 
 #### R.F.02. Seguir a escritores
 
 Como lector,
-quiero poder seguir a escritores que me gusten
-para recibir recomendaciones sobre sus historias
+quiero poder seguir a escritores que me gusten,
+para recibir recomendaciones sobre sus historias.
 
 #### R.F.03. Notificar novedades
 
 Como usuario,
-quiero recibir una notificación cuando alguien a quien sigo suba un fanfic nueva o cuando se actualice un fanfic que estoy leyendo
+quiero recibir una notificación cuando alguien a quien sigo suba un fanfic nueva o cuando se actualice un fanfic que estoy leyendo.
 
 #### R.F.04. Búsqueda avanzada
 
 Como usuario,
 quiero poder realizar búsquedas en el sistema con distintos filtros y criterios de ordenación,
-para encontrar con más facilidad lo que estoy buscando
+para encontrar con más facilidad lo que estoy buscando.
 
 #### R.F.05. Recomendaciones
 
 Como lector,
 quiero recibir recomendaciones por el sistema de fanfics, escritores, fandoms e hilos que podrían gustarme en base a mi actividad en la página,
-para tener una experiencia personalizada que facilite descubrir partes de la página que me gusten
+para tener una experiencia personalizada que facilite descubrir partes de la página que me gusten.
 
 #### R.F.06. Fanfics Favoritos 
 
 Como lector,
 quiero poder marcar fanfics como favoritos y acceder a ellos en su propia pestaña,
-para encontrarlos más fácilmente y recibir recomendaciones en base a ellos
+para encontrarlos más fácilmente y recibir recomendaciones en base a ellos.
 
 #### R.F.07. Crear Hilos 
 
 Como lector,
 quiero poder abrir un hilo sobre un fanfic que he leído,
-para crear un espacio en el que hablar sobre un tema de interés del fanfic
+para crear un espacio en el que hablar sobre un tema de interés del fanfic.
 
 #### R.F.08. Guardar Hilos 
 
 Como usuario,
-quiero poder guardar los hilos que me interesen
-para archivarlos y poder encontrarlos más tarde
+quiero poder guardar los hilos que me interesen,
+para archivarlos y poder encontrarlos más tarde.
 
 #### R.F.09. Ajustes de Notificaciones
 
 Como usuario,
 quiero poder editar la frecuencia con la que recibo notificaciones
-para modificar mi experiencia en el sistema
+para modificar mi experiencia en el sistema.
 
 #### R.F.10. Tags
 
 Como escritor,
 quiero poder añadir tags a los fanfics que escriba,
-para que los lectores puedan encontrar mi contenido en base a búsquedas avanzadas
+para que los lectores puedan encontrar mi contenido en base a búsquedas avanzadas.
 
 
 **Prueba de aceptación**
@@ -166,25 +166,29 @@ Como [tipo de usuario]
 quiero [servicio]
 para [razón]
 
-**R.N.F.01. Tiempo de respuesta 
+**R.N.F.01. Tiempo de respuesta**
+
 Como lector, 
 quiero que la página cargue rápidamente,
-para no tener que esperar demasiado al buscar o leer fanfics
+para no tener que esperar demasiado al buscar o leer fanfics.
 
-**R.N.F.02. Disponibilidad 
+**R.N.F.02. Disponibilidad**
+
 Como escritor, 
 quiero que la página esté disponible la mayor parte del tiempo, 
-para poder publicar y actualizar mis fanfics cuando quiera
+para poder publicar y actualizar mis fanfics cuando quiera.
 
-**R.N.F.03. Seguridad 
+**R.N.F.03. Seguridad**
+
 Como usuario,
 quiero que mi cuenta y contraseña estén protegidas, 
-para evitar que otras personas puedan acceder a mi cuenta
+para evitar que otras personas puedan acceder a mi cuenta.
 
-**R.N.F.04. Compatibilidad 
+**R.N.F.04. Compatibilidad**
+
 Como lector, 
 quiero poder utilizar la página desde diferentes navegadores, 
-para poder leer fanfics independientemente del navegador que utilice
+para poder leer fanfics independientemente del navegador que utilice.
 
 -- fin entregable 1 --
 

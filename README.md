@@ -123,6 +123,86 @@ para que los lectores puedan encontrar mi contenido en base a búsquedas avanzad
 - Se debe aplicar la regla de negocio R.N.XX.
 - ...
 
+**R.F.01. Comentarios por capítulo**
+
+-Se publica un comentario en un capítulo y aparece correctamente.
+
+-Se entra en un capítulo con comentarios y se pueden leer.
+
+-Se intenta publicar un comentario vacío y aparece un mensaje de error.
+
+**R.F.02. Seguir a escritores**
+
+-Se sigue a un escritor y aparece en la lista de escritores seguidos.
+
+-Se deja de seguir a un escritor y desaparece de la lista.
+
+-Se intenta seguir dos veces al mismo escritor y solo aparece una vez.
+
+**R.F.03. Notificar novedades**
+
+-Un escritor seguido publica un fanfic nuevo y el usuario recibe una notificación.
+
+-Se actualiza un fanfic que el usuario está leyendo y recibe una notificación.
+
+-Un escritor que no sigue el usuario publica un fanfic y no recibe una notificación.
+
+**R.F.04. Búsqueda avanzada**
+
+-Se realiza una búsqueda con un filtro y aparecen los resultados que cumplen ese filtro.
+
+-Se utilizan varios filtros y los resultados cumplen todos ellos.
+
+-Se ordenan los resultados y aparecen en el orden elegido.
+
+**R.F.05. Recomendaciones**
+
+-Se consultan varios fanfics y el sistema muestra recomendaciones relacionadas.
+
+-Se siguen escritores y sus historias aparecen en las recomendaciones.
+
+-Se marcan fanfics como favoritos y se tienen en cuenta para las recomendaciones.
+
+**R.F.06. Fanfics favoritos**
+
+-Se marca un fanfic como favorito y aparece en la pestaña de favoritos.
+
+-Se quita un fanfic de favoritos y desaparece de la pestaña.
+
+-Se intenta añadir dos veces el mismo fanfic a favoritos y solo aparece una vez.
+
+**R.F.07. Crear hilos**
+
+-Se crea un hilo sobre un fanfic y aparece asociado a ese fanfic.
+
+-Se entra en un fanfic y se pueden ver los hilos creados sobre él.
+
+-Se intenta crear un hilo sin rellenar los datos necesarios y aparece un mensaje de error.
+
+**R.F.08. Guardar hilos**
+
+-Se guarda un hilo y aparece en la lista de hilos guardados.
+
+-Se elimina un hilo guardado y desaparece de la lista.
+
+-Se cierra y vuelve a abrir la sesión y los hilos guardados siguen apareciendo.
+
+**R.F.09. Ajustes de notificaciones**
+
+-Se cambia la frecuencia de las notificaciones y se guarda correctamente.
+
+-Se desactivan las notificaciones y el usuario deja de recibirlas.
+
+-Se vuelven a activar las notificaciones y el usuario las recibe de nuevo.
+
+**R.F.10. Tags**
+
+-Se añaden tags a un fanfic y aparecen correctamente.
+
+-Se busca un fanfic mediante uno de sus tags y aparece en los resultados.
+
+-Se elimina un tag y el fanfic deja de aparecer al buscar por ese tag.
+
 #### 4.1.1. Requisitos de información
 
 ##### R.I. Título requisito de información
@@ -206,6 +286,37 @@ quiero disponer de la siguiente información sobre los hilos:
 - Descripción de la segunda comprobación a realizar
 - ...
 
+**R.I.01. Información de los fanfics**
+-Se crea un fanfic y se comprueba que aparecen su título, descripción, autor y fandom.
+
+-Se añaden tags a un fanfic y aparecen correctamente.
+
+-Se comprueba que aparecen la fecha de publicación, el número de capítulos y si el fanfic está en curso o finalizado.
+
+**R.I.02. Información de los usuarios**
+
+-Se crea una cuenta y se comprueba que aparecen correctamente el nombre de usuario y la contraseña.
+
+-Se publican y se marcan fanfics como favoritos y aparecen en la información del usuario.
+
+-Se sigue a un escritor y se guarda un hilo, y ambos aparecen en la información del usuario.
+
+**R.I.03. Información de los capítulos**
+
+-Se crea un capítulo y aparecen su título, número, contenido y fecha de publicación.
+
+-Se añaden comentarios a un capítulo y aparecen asociados a ese capítulo.
+
+-Se modifican los datos de un capítulo y se comprueba que la información mostrada se actualiza correctamente.
+
+**R.I.04. Información de los hilos**
+
+-Se crea un hilo y aparecen su título, usuario que lo creó, fanfic relacionado, contenido y fecha.
+
+-Se añaden respuestas a un hilo y aparecen correctamente.
+
+-Se consulta un hilo y se comprueba que toda la información aparece asociada al fanfic correspondiente.
+
 #### 4.1.2. Reglas de negocio
 
 ##### R.N.01. Permisos sin registrarse
@@ -233,7 +344,7 @@ Un capítulo no puede publicarse si está vacío, en cuyo caso, el fanfic sólo 
 
 ### 4.3. Requisitos no funcionales (opcional)
 
-**R.N.F. 01. Título requisito no funcional**
+**R.N.F. Título requisito no funcional**
 Como [tipo de usuario]
 quiero [servicio]
 para [razón]

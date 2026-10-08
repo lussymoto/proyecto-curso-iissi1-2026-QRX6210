@@ -287,6 +287,7 @@ quiero disponer de la siguiente información sobre los hilos:
 - ...
 
 **R.I.01. Información de los fanfics**
+
 -Se crea un fanfic y se comprueba que aparecen su título, descripción, autor y fandom.
 
 -Se añaden tags a un fanfic y aparecen correctamente.

@@ -127,24 +127,38 @@ para que los lectores puedan encontrar mi contenido en base a búsquedas avanzad
 
 Como lector, 
 quiero disponer de la siguiente información sobre los fanfics:
+
 -Título del fanfic
+
 -Descripción
+
 -Autor
+
 -Fandom al que pertenece
+
 -Tags asociados
+
 -Fecha de publicación
+
 -Número de capítulos
+
 -Estado del fanfic (en curso o finalizado)
 
 #### R.I.02. Información de los usuarios 
 
 Como usuario, 
 quiero disponer de la siguiente información relacionada con mi cuenta:
+
 -Nombre de usuario
+
 -Contraseña
+
 -Fanfics publicados
+
 -Fanfics favoritos
+
 -Escritores seguidos
+
 -Hilos guardados
 
 ##### R.I.03. Título requisito de información

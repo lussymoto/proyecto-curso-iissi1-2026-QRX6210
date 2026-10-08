@@ -123,6 +123,12 @@ para que los lectores puedan encontrar mi contenido en base a búsquedas avanzad
 
 #### 4.1.1. Requisitos de información
 
+##### R.I. Título requisito de información
+
+Como [tipo de usuario]
+quiero [servicio]
+para [razón]
+
 #### R.I.01. Información de los fanfics 
 
 Como lector, 
@@ -160,12 +166,6 @@ quiero disponer de la siguiente información relacionada con mi cuenta:
 -Escritores seguidos
 
 -Hilos guardados
-
-##### R.I.03. Título requisito de información
-
-Como [tipo de usuario]
-quiero [servicio]
-para [razón]
 
 **Prueba de aceptación**
 - Descripción de la primera comprobación a realizar

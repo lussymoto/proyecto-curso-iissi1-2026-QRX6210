@@ -51,6 +51,8 @@ para compartir mi opinión.
 
 ### 3.2. Usuarios del sistema
 
+Tenemos solo un tipo de usuario. Éste puede escribir y/o leer fanfics.
+
 ## 4. Catálogo de requisitos
 
 ### 4.1. Requisitos funcionales

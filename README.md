@@ -166,6 +166,26 @@ Como [tipo de usuario]
 quiero [servicio]
 para [razón]
 
+**R.N.F.01. Tiempo de respuesta 
+Como lector, 
+quiero que la página cargue rápidamente,
+para no tener que esperar demasiado al buscar o leer fanfics
+
+**R.N.F.02. Disponibilidad 
+Como escritor, 
+quiero que la página esté disponible la mayor parte del tiempo, 
+para poder publicar y actualizar mis fanfics cuando quiera
+
+**R.N.F.03. Seguridad 
+Como usuario,
+quiero que mi cuenta y contraseña estén protegidas, 
+para evitar que otras personas puedan acceder a mi cuenta
+
+**R.N.F.04. Compatibilidad 
+Como lector, 
+quiero poder utilizar la página desde diferentes navegadores, 
+para poder leer fanfics independientemente del navegador que utilice
+
 -- fin entregable 1 --
 
 ## 5. Modelo conceptual

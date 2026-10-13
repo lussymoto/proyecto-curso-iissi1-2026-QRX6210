@@ -9,8 +9,6 @@
 
 ## 1. Introducción al problema
 
-- Descripción del problema para poner en contexto el proyecto, incluyendo información sobre los clientes y usuarios, la situación actual, problemas, expectativas, etc. Se valorará la presencia de información multimedia (fotos, gráficos, documentos escaneados, etc.).
-
 Cuando se trata de preservar historias, suele ser la fama de la propia obra la que se encarga de que no se olvide. Sin embargo, la cantidad de fanfics que pueden surgir a partir de una historia puede ser enorme, facilitando que muchos de ellos se pierdan en la abundancia de la nube. Nuestro objetivo es conservar todos y cada uno de ellos, aportando las herramientas suficientes para descubrir o encontrar justo el fanfic que uno está buscando.
 Nuestros usuarios incluyen a cualquiera que disfrute con la lectura, escritura o discusión de fanfics.
 

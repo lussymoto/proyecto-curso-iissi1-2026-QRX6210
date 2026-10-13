@@ -33,7 +33,7 @@ Esperamos organizar los servicios ofrecidos en una barra vertical a la izquierda
 
 <table>
   <tr>
-    <th>El perfil de usuario contiene los fanfics que este ha escrito:</th>
+    <th>Los fanfics que este ha escrito el usuario se guardan por separado:</th>
     <th>Interfaz esperada para la lectura de un fanfic:</th>
   </tr>
   <tr>

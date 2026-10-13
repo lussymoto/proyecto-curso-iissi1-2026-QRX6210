@@ -11,14 +11,42 @@
 
 - Descripción del problema para poner en contexto el proyecto, incluyendo información sobre los clientes y usuarios, la situación actual, problemas, expectativas, etc. Se valorará la presencia de información multimedia (fotos, gráficos, documentos escaneados, etc.).
 
+Cuando se trata de preservar historias, suele ser la fama de la propia obra la que se encarga de que no se olvide. Sin embargo, la cantidad de fanfics que pueden surgir a partir de una historia puede ser enorme, facilitando que muchos de ellos se pierdan en la abundancia de la nube. Nuestro objetivo es conservar todos y cada uno de ellos, aportando las herramientas suficientes para descubrir o encontrar justo el fanfic que uno está buscando.
+Nuestros usuarios incluyen a cualquiera que disfrute con la lectura, escritura o discusión de fanfics.
+
+**Prototipo de la Interfaz**
+
+<img width="700" alt="Proyecto IISSI1_page-0001" src="https://github.com/user-attachments/assets/d94e4d36-d1d6-4258-b2fb-a7035e35034a" />
+
+Esperamos organizar los servicios ofrecidos en una barra vertical a la izquierda, con la siguiente jerarquía:
+
+- Home: Apartado para descubrir fanfics
+  - Biblioteca: Espacio para visualizar los fanfics que el usuario quiere leer, está leyendo, o ha leído.
+  - Comunidad: Contiene los espacios para acceder a:
+    - Escritores
+    - Fandoms
+    - Hilos
+
+<table>
+  <tr>
+    <th>El perfil de usuario contiene los fanfics que este ha escrito:</th>
+    <th>Interfaz esperada para la lectura de un fanfic:</th>
+  </tr>
+  <tr>
+    <td><img width="600" alt="Proyecto IISSI1_page-0003" src="https://github.com/user-attachments/assets/fc91b561-c687-46a8-b115-68686795e44a" /></td>
+    <td><img width="600" alt="Proyecto IISSI1_page-0009" src="https://github.com/user-attachments/assets/2cbfefcd-4a49-4fbb-b101-a7ffd3443f41" /></td>
+  </tr>
+</table>
+
+
 ## 2. Glosario de términos
 
 - Términos específicos del dominio del problema, ordenados alfabéticamente. Se valorará la presencia de información multimedia.
   - Fanfic (Fan-fiction): Historia ficticia escrita por fans sobre otra historia ficticia; ya sea sobre una serie, película, cómic, etc...
   - Escritor: Usuario que publica fanfics.
   - Lector: Usuario que lee fanfics y/o publica comentarios e hilos.
-  - Fandom: La comunidad de fans detrás de un fenómeno, obra, artista, serie, película, videojuego o personalidad específica.
   - Tag: Etiqueta que identifica una característica de un fanfic.
+  - Fandom: Un tag de carácter obligatorio. Indica la comunidad de fans detrás de un fenómeno, obra, artista, serie, película, videojuego o personalidad específica.
   - Hilo: Espacio de discursión e intercambio de opiniones sobre un fanfic.
 
 ## 3. Visión general del sistema
@@ -43,7 +71,7 @@ Como lector,
 quiero poder encontrar historias que me interesen y guardarlas,
 para poder leerlas más tarde.
 
-#### R.G.04. Valorar Historias
+#### R.G.04. Comentar Historias
 
 Como lector,
 quiero poder comentar las historias, 
@@ -51,7 +79,13 @@ para compartir mi opinión.
 
 ### 3.2. Usuarios del sistema
 
-Tenemos solo un tipo de usuario. Éste puede escribir y/o leer fanfics.
+Tenemos solo un tipo de usuario, el cual puede adoptar distintos roles simultáneamente, dependiendo de lo que busque del servicio en ese momento.
+- Lector:
+Aquellos interesados en leer obras de otros usuarios.
+- Escritor:
+Aquellos interesados en crear y publicar sus propias obras.
+- Crítico:
+Aquellos interesados en la discusión de obras y en expresar su opinión sobre ellas.
 
 ## 4. Catálogo de requisitos
 

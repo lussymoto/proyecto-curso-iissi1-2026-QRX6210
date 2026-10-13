@@ -46,12 +46,12 @@ Esperamos organizar los servicios ofrecidos en una barra vertical a la izquierda
 ## 2. Glosario de términos
 
 - Términos específicos del dominio del problema, ordenados alfabéticamente. Se valorará la presencia de información multimedia.
-  - Fanfic (Fan-fiction): Historia ficticia escrita por fans sobre otra historia ficticia; ya sea sobre una serie, película, cómic, etc...
   - Escritor: Usuario que publica fanfics.
+  - Fandom: Un tag de carácter obligatorio. Indica la comunidad de fans detrás de un fenómeno, obra, artista, serie, película, videojuego o personalidad específica.
+  - Fanfic (Fan-fiction): Historia ficticia escrita por fans sobre otra historia ficticia; ya sea sobre una serie, película, cómic, etc...
+  - Hilo: Espacio de discursión e intercambio de opiniones sobre un fanfic.
   - Lector: Usuario que lee fanfics y/o publica comentarios e hilos.
   - Tag: Etiqueta que identifica una característica de un fanfic.
-  - Fandom: Un tag de carácter obligatorio. Indica la comunidad de fans detrás de un fenómeno, obra, artista, serie, película, videojuego o personalidad específica.
-  - Hilo: Espacio de discursión e intercambio de opiniones sobre un fanfic.
 
 ## 3. Visión general del sistema
 

@@ -21,11 +21,15 @@ Nuestros usuarios incluyen a cualquiera que disfrute con la lectura, escritura o
 Esperamos organizar los servicios ofrecidos en una barra vertical a la izquierda, con la siguiente jerarquía:
 
 - Home: Apartado para descubrir fanfics
-  - Biblioteca: Espacio para visualizar los fanfics que el usuario quiere leer, está leyendo, o ha leído.
-  - Comunidad: Contiene los espacios para acceder a:
-    - Escritores
-    - Fandoms
-    - Hilos
+- Biblioteca: Espacio para visualizar los fanfics que el usuario:
+  - quiere leer
+  - está leyendo
+  - ha terminado de leer
+  - ha marcado como favoritos
+- Comunidad: Contiene los espacios para acceder a:
+  - Escritores
+  - Fandoms
+  - Hilos
 
 <table>
   <tr>

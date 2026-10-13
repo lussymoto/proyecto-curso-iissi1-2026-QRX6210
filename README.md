@@ -146,7 +146,7 @@ para encontrar con más facilidad lo que estoy buscando.
 #### R.F.05. Recomendaciones
 
 Como lector,
-quiero recibir recomendaciones por el sistema de fanfics, escritores, fandoms e hilos que podrían gustarme en base a mi actividad en la página,
+quiero recibir recomendaciones por parte del sistema, sobre fanfics, escritores, fandoms e hilos que podrían gustarme en base a mi actividad en la página,
 para tener una experiencia personalizada que facilite descubrir partes de la página que me gusten.
 
 **Prueba de aceptación**

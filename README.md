@@ -94,6 +94,8 @@ Aquellos interesados en crear y publicar sus propias obras.
 - Crítico:
 Aquellos interesados en la discusión de obras y en expresar su opinión sobre ellas.
 
+Todos estos pueden ser un mismo usuario, aunque entendemos que un crítico también debe ser un lector a la fuerza.
+
 ## 4. Catálogo de requisitos
 
 ### 4.1. Requisitos funcionales

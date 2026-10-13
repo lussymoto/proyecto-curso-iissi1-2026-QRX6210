@@ -341,6 +341,11 @@ para evitar que los usuarios pierdan acceso a fanfics que ya conocían.
 Como desarrollador de la página,
 quiero que no se puedan publicar fanfics con capítulos vacíos, ni editar un capítulo para vaciarlo.
 
+##### R.N.06. Requisitos para Publicar Fanfics
+
+Como desarrollador de la página,
+quiero que un fanfic no pueda publicarse sin tener un título y al menos un fandom asociado.
+
 ### 4.2. Mapa de historias de usuario (opcional)
 
 ### 4.3. Requisitos no funcionales (opcional)

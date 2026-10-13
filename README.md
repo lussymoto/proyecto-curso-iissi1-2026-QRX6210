@@ -176,7 +176,7 @@ para crear un espacio en el que hablar sobre un tema de interés del fanfic.
 - Se entra en un fanfic y se pueden ver los hilos creados sobre él.
 - Se intenta crear un hilo sin asociarlo a un fanfic y aparece un mensaje de error.
 
-#### R.F.08. Guardar Hilos 
+#### R.F.08. Guardado de Hilos 
 
 Como usuario,
 quiero poder guardar los hilos que me interesen,
@@ -198,7 +198,7 @@ para modificar mi experiencia en el sistema.
 - Se desactivan las notificaciones y el usuario deja de recibirlas.
 - Se vuelven a activar las notificaciones y el usuario las recibe de nuevo.
 
-#### R.F.10. Tags
+#### R.F.10. Añadir y Quitar Tags
 
 Como escritor,
 quiero poder añadir tags a los fanfics que escriba,
@@ -208,6 +208,16 @@ para que los lectores puedan encontrar mi contenido en base a búsquedas avanzad
 - Se añaden tags a un fanfic y aparecen correctamente.
 - Se busca un fanfic mediante uno de sus tags y aparece en los resultados.
 - Se elimina un tag y el fanfic deja de aparecer al buscar por ese tag.
+
+#### R.F.11. Crear Tags
+
+Como escritor,
+quiero poder crear tags que no existan actualmente,
+para expandir los posibles criterios de búsqueda y filtrado de la página.
+
+**Prueba de aceptación**
+- Se intenta crear un tag que ya existe y no se permite.
+- Se crea un tag y a otros escritores les aparece como un tag existente.
 
 #### 4.1.1. Requisitos de información
 

@@ -125,7 +125,7 @@ para recibir recomendaciones sobre sus historias.
 #### R.F.03. Notificar novedades
 
 Como usuario,
-quiero recibir una notificación cuando alguien a quien sigo suba un fanfic nueva o cuando se actualice un fanfic que estoy leyendo.
+quiero recibir una notificación cuando alguien a quien sigo suba un fanfic nuevo o cuando se actualice un fanfic que estoy leyendo.
 
 **Prueba de aceptación**
 - Un escritor seguido publica un fanfic nuevo y el usuario recibe una notificación.

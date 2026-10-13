@@ -305,24 +305,31 @@ quiero disponer de la siguiente información sobre los comentarios de un capítu
 
 ##### R.N.01. Permisos sin registrarse
 
-Un usuario debe estar registrado con una cuenta para poder publicar fanfics, hilos y comentarios. Sin una cuenta, sólo se les permite leerlos.
+Como desarrollador de la página,
+quiero que un usuario que no esté registrado sólo pueda actuar como lector,
+para que no se puedan publica fanfics, hilos y comentarios sin asociarlos a una cuenta.
 
 ##### R.N.02. Número de cuentas por correo
 
-Un mismo correo electrónico tiene derecho a crear una única cuenta.
+Como desarrollador de la página,
+quiero que un mismo correo electrónico no pueda crear más de una cuenta.
 
-##### R.N.03. Número de fanfics por usuario
+##### R.N.03. Creación de capítulos en orden
 
-Un usuario puede crear publicar distintos fanfics, pero un fanfic no puede tener más de un autor.
+Como desarrollador de la página,
+quiero que el número de un capítulo no pueda ser mayor a la cantidad de capítulos que tiene el fanfic,
+para que todos los capítulos publicados sean consecutivos.
 
 ##### R.N.04. Conservación de fanfics
 
-Si un usuario borra su cuenta, los fanfics que ha creado no son borrados.
+Como desarrollador de la página,
+quiero que un usuario sólo pueda borrar un fanfic que ha escrito si ese fanfic no se encuentra en la biblioteca de ningún otro usuario,
+para evitar que los usuarios pierdan acceso a fanfics que ya conocían.
 
 ##### R.N.05. Capítulos vacíos
 
-Un capítulo no puede publicarse si está vacío, en cuyo caso, el fanfic sólo acualizará el resto de cambios realizados.
-
+Como desarrollador de la página,
+quiero que no se puedan publicar fanfics con capítulos vacíos, ni editar un capítulo para vaciarlo.
 
 ### 4.2. Mapa de historias de usuario (opcional)
 

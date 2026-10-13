@@ -220,14 +220,17 @@ quiero disponer de la siguiente información sobre los fanfics:
 - Descripción
 - Autor
 - Fandom al que pertenece
-- Tags asociados
+- Tags asociados (personajes, género y tags adicionales)
 - Fecha de publicación
-- Número de capítulos
 - Estado del fanfic (en curso o finalizado)
+- Número de capítulos actual
+- Capítulos que contenga
 
 **Prueba de aceptación**
-- Se crea un fanfic y se comprueba que aparecen su título, descripción, autor y fandom.
-- Se añaden tags a un fanfic y aparecen correctamente.
+- Se abre un fanfic y aparecen su título, autor, descripción, fandom y tags asociados, seguido de sus capítulos.
+- Se crea un fanfic y automáticamente aparece en la lista de fanfics creados por ese usuario y en la lista de fanfics que pertenecen a su fandom asociado.
+- Se añaden tags a un fanfic y el fanfic aparece en la lista de fanfics con ese tag.
+- Se elimina algún tag del fanfic y este desaparece de la lista de fanfics con ese tag.
 - Se comprueba que aparecen la fecha de publicación, el número de capítulos y si el fanfic está en curso o finalizado.
 
 ##### R.I.02. Información usuarios 
@@ -237,8 +240,11 @@ quiero disponer de la siguiente información relacionada con mi cuenta:
 
 - Nombre de usuario
 - Contraseña
-- Fanfics publicados
-- Fanfics favoritos
+- Fanfics publicados por mí
+- Fanfics de mi biblioteca
+- Por cada fanfic de mi biblioteca:
+  - Si está sin leer, en proceso, o leído
+  - Si está marcado como favorito o no
 - Escritores seguidos
 - Hilos guardados
 
@@ -266,7 +272,7 @@ quiero disponer de la siguiente información sobre los capítulos de un fanfic:
 ##### R.I.04. Información de los hilos
 
 Como lector, 
-quiero disponer de la siguiente información sobre los hilos:
+quiero disponer de la siguiente información sobre los hilos de un fanfic:
 
 - Título del hilo
 - Usuario que lo ha creado
@@ -280,6 +286,21 @@ quiero disponer de la siguiente información sobre los hilos:
 - Se añaden respuestas a un hilo y aparecen correctamente.
 - Se consulta un hilo y se comprueba que toda la información aparece asociada al fanfic correspondiente.
 
+##### R.I.04. Información de los comentarios
+
+Como lector,
+quiero disponer de la siguiente información sobre los comentarios de un capítulo:
+
+- Usuario que lo ha escrito
+- Contenido
+- Fanfic del capítulo asociado
+- Si ha sido editado o no
+
+**Prueba de aceptación**
+- Se crea un comentario y aparece en la lista de comentarios escritos por ese usuario.
+- Se elimina un comentario y deja de aparecer la lista de comentarios escritos por ese usuario y la lista de comentarios del capítulo.
+- Se edita un comentario y aparece como editado
+
 #### 4.1.2. Reglas de negocio
 
 ##### R.N.01. Permisos sin registrarse
@@ -288,7 +309,7 @@ Un usuario debe estar registrado con una cuenta para poder publicar fanfics, hil
 
 ##### R.N.02. Número de cuentas por correo
 
-Un mismo correo electrónico tiene derecho a crear una única cuenta. 
+Un mismo correo electrónico tiene derecho a crear una única cuenta.
 
 ##### R.N.03. Número de fanfics por usuario
 

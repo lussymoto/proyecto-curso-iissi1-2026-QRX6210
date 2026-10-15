@@ -294,7 +294,7 @@ quiero disponer de la siguiente información sobre los hilos de un fanfic:
 - Se añaden respuestas a un hilo y aparecen correctamente.
 - Se consulta un hilo y se comprueba que toda la información aparece asociada al fanfic correspondiente.
 
-##### R.I.04. Información de los comentarios
+##### R.I.05. Información de los comentarios
 
 Como lector,
 quiero disponer de la siguiente información sobre los comentarios de un capítulo:
@@ -308,6 +308,14 @@ quiero disponer de la siguiente información sobre los comentarios de un capítu
 - Se crea un comentario y aparece en la lista de comentarios escritos por ese usuario.
 - Se elimina un comentario y deja de aparecer la lista de comentarios escritos por ese usuario y la lista de comentarios del capítulo.
 - Se edita un comentario y aparece como editado
+
+##### R.I.06. Información de los tags
+
+Como usuario,
+quiero disponer de la siguiente información sobre un tag:
+
+ - Tipo (fandom, personaje, genero o extra)
+ - Nombre del tag
 
 #### 4.1.2. Reglas de negocio
 

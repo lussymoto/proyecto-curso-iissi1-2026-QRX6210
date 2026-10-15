@@ -58,29 +58,23 @@ Esperamos organizar los servicios ofrecidos en una barra vertical a la izquierda
 
 ### 3.1. Requisitos generales
 
-#### R.G.01. Crear y Publicar Historias
+#### R.G.01. Gestión de Historias
 
-Como escritor,
-quiero poder crear y publicar mis propias historias,
-para que otros usuarios puedan leerlas.
+Como usuario, 
+quiero poder crear y publicar mis propias historias, 
+enontrar y leer historias publicadas por otros usuarios, 
+y guardar aquellas que me interesen.
 
-#### R.G.02. Leer Historias
-
-Como usuario,
-quiero poder leer historias publicadas por otros usuarios,
-para ver de diferentes tipos de contenido.
-
-#### R.G.03. Buscar y Guardar Historias
-
-Como lector,
-quiero poder encontrar historias que me interesen y guardarlas,
-para poder leerlas más tarde.
-
-#### R.G.04. Comentar Historias
+#### R.G.02. Gestión de comentarios
 
 Como lector,
 quiero poder comentar las historias, 
 para compartir mi opinión.
+
+#### R.G.03. Gestión de usuarios
+
+Como usuario,
+quiero poder personalizar mi perfil y visualizar los perfiles de otros usuarios.
 
 ### 3.2. Usuarios del sistema
 
@@ -98,7 +92,7 @@ Todos estos pueden ser un mismo usuario, aunque entendemos que un crítico tambi
 
 ### 4.1. Requisitos funcionales
 
-#### R.F.01. Comentarios por capítulo
+#### R.F.01. Consultar comentarios por capítulo
 
 Como lector,
 quiero poder escribir y leer comentarios en los capítulos de un fanfic,
@@ -109,7 +103,7 @@ para expresar mi opinión públicamente sobre cada capítulo por separado.
 - Se entra en un capítulo con comentarios y se pueden leer.
 - Se intenta publicar un comentario vacío y aparece un mensaje de error.
 
-#### R.F.02. Seguir a escritores
+#### R.F.02. Consultar escritores
 
 Como lector,
 quiero poder seguir a escritores que me gusten,
@@ -120,7 +114,7 @@ para recibir recomendaciones sobre sus historias.
 - Se deja de seguir a un escritor y desaparece de la lista.
 - Se intenta seguir dos veces al mismo escritor y solo aparece una vez.
 
-#### R.F.03. Notificar novedades
+#### R.F.03. Consultar actualizaciones
 
 Como usuario,
 quiero recibir una notificación cuando alguien a quien sigo suba un fanfic nuevo o cuando se actualice un fanfic que estoy leyendo.
@@ -141,7 +135,7 @@ para encontrar con más facilidad lo que estoy buscando.
 - Se utilizan varios filtros y todos los resultados cumplen todos ellos.
 - Se ordenan los resultados y aparecen en el orden elegido.
 
-#### R.F.05. Recomendaciones
+#### R.F.05. Consultar recomendaciones
 
 Como lector,
 quiero recibir recomendaciones por parte del sistema, sobre fanfics, escritores, fandoms e hilos que podrían gustarme en base a mi actividad en la página,
@@ -152,7 +146,7 @@ para tener una experiencia personalizada que facilite descubrir partes de la pá
 - Se siguen escritores y sus historias aparecen en las recomendaciones.
 - Se marca un nuevo fanfic como favorito y se actualizan las recomendaciones.
 
-#### R.F.06. Fanfics Favoritos 
+#### R.F.06. Consultar Fanfics Favoritos 
 
 Como lector,
 quiero poder marcar fanfics como favoritos y acceder a ellos en su propia pestaña,
@@ -174,7 +168,7 @@ para crear un espacio en el que hablar sobre un tema de interés del fanfic.
 - Se entra en un fanfic y se pueden ver los hilos creados sobre él.
 - Se intenta crear un hilo sin asociarlo a un fanfic y aparece un mensaje de error.
 
-#### R.F.08. Guardado de Hilos 
+#### R.F.08. Consultar de Hilos 
 
 Como usuario,
 quiero poder guardar los hilos que me interesen,
@@ -185,7 +179,7 @@ para archivarlos y poder encontrarlos más tarde.
 - Se elimina un hilo guardado y desaparece de la lista.
 - Se cierra y vuelve a abrir la sesión y los hilos guardados siguen apareciendo.
 
-#### R.F.09. Ajustes de Notificaciones
+#### R.F.09. Consultar Notificaciones
 
 Como usuario,
 quiero poder editar la frecuencia con la que recibo notificaciones
@@ -216,6 +210,12 @@ para expandir los posibles criterios de búsqueda y filtrado de la página.
 **Prueba de aceptación**
 - Se intenta crear un tag que ya existe y no se permite.
 - Se crea un tag y a otros escritores les aparece como un tag existente.
+
+#### R.F.12. Consultar Tags
+
+Como lector,
+quiero poder consultar los tags de un fanfic,
+para saber si es de mi interés.
 
 #### 4.1.1. Requisitos de información
 

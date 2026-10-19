@@ -325,10 +325,20 @@ Como desarrollador de la página,
 quiero que un usuario que no esté registrado sólo pueda actuar como lector,
 para que no se puedan publica fanfics, hilos y comentarios sin asociarlos a una cuenta.
 
+**Prueba de aceptación**
+-Un usuario no registrado puede leer fanfics, capítulos, hilos y comentarios
+-Un usuario no registrado no puede publicar fanfics ni crear hilos
+-Un usuario no registrado no puede publicar comentarios
+
 ##### R.N.02. Número de cuentas por correo
 
 Como desarrollador de la página,
 quiero que un mismo correo electrónico no pueda crear más de una cuenta.
+
+**Prueba de aceptación**
+-Un usuario puede registrarse con un correo electrónico que no esté registrado
+-El sistema no permite registrar una cuenta con un correo electrónico ya utilizado
+-Si se intenta utilizar un correo ya registrado, el sistema muestra un mensaje de error
 
 ##### R.N.03. Creación de capítulos en orden
 
@@ -336,21 +346,42 @@ Como desarrollador de la página,
 quiero que el número de un capítulo no pueda ser mayor a la cantidad de capítulos que tiene el fanfic,
 para que todos los capítulos publicados sean consecutivos.
 
+**Prueba de aceptación**
+-El primer capítulo de un fanfic se publica con el número 1
+-El sistema permite publicar capítulos siguiendo el orden consecutivo
+-El sistema impide publicar un capítulo si su número salta uno o varios capítulos anteriores
+
 ##### R.N.04. Conservación de fanfics
 
 Como desarrollador de la página,
 quiero que un usuario sólo pueda borrar un fanfic que ha escrito si ese fanfic no se encuentra en la biblioteca de ningún otro usuario,
 para evitar que los usuarios pierdan acceso a fanfics que ya conocían.
 
+**Prueba de aceptación**
+-Un usuario puede borrar un fanfic propio si ningún otro usuario lo tiene en su biblioteca
+-El sistema impide borrar un fanfic si otro usuario lo tiene en su biblioteca
+-Si se intenta borrar un fanfic que está en otra biblioteca, el sistema muestra un mensaje de error
+
 ##### R.N.05. Capítulos vacíos
 
 Como desarrollador de la página,
 quiero que no se puedan publicar fanfics con capítulos vacíos, ni editar un capítulo para vaciarlo.
 
+**Prueba de aceptación**
+-El sistema permite publicar capítulos que contienen texto
+-El sistema impide publicar capítulos vacíos o que solo contengan espacios en blanco
+-El sistema impide guardar la edición de un capítulo si su contenido queda vacío
+
 ##### R.N.06. Requisitos para Publicar Fanfics
 
 Como desarrollador de la página,
 quiero que un fanfic no pueda publicarse sin tener un título y al menos un fandom asociado.
+
+**Prueba de aceptación**
+-El sistema permite publicar un fanfic que tenga título y al menos un fandom asociado
+-El sistema impide publicar un fanfic sin título.
+-El sistema impide publicar un fanfic sin ningún fandom asociado
+
 
 ### 4.2. Mapa de historias de usuario (opcional)
 

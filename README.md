@@ -317,6 +317,17 @@ quiero disponer de la siguiente información sobre un tag:
  - Tipo (fandom, personaje, genero o extra)
  - Nombre del tag
 
+##### R.I.07. Información de las valoraciones
+
+Como usuario, 
+quiero disponer de la siguiente información sobre una valoración:
+
+  - Puntuación
+  - Descripción (si contiene)
+  - Fecha
+  - Usuario asociado
+  - Fanfic asociado 
+
 #### 4.1.2. Reglas de negocio
 
 ##### R.N.01. Permisos sin registrarse

@@ -427,8 +427,8 @@ para poder leer fanfics independientemente del navegador que utilice.
 
 - Matriz de trazabilidad entre los elementos del modelo conceptual y los requisitos.
 
-|       | EntidadX   | AsociaciónX  | RestricciónX  | Entidad2 ...   | 
-|:------|:-----------|:-----------|:-----------|:-----------|
+|       | Usuario    | Fanfic     | Valoración | Comentario | Tag        | Biblioteca | ElemBiblio | Capitulo   | Hilo       |
+|:------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|
 | RI-1  | X          | X          | X          | X          |
 | RI-2  |            | X          |            | X          |
 | RF-1  |            | X          |            | X          |

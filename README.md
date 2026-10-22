@@ -427,15 +427,36 @@ para poder leer fanfics independientemente del navegador que utilice.
 
 - Matriz de trazabilidad entre los elementos del modelo conceptual y los requisitos.
 
-|       | Usuario    | Fanfic     | Valoración | Comentario | Tag        | Biblioteca | ElemBiblio | Capitulo   | Hilo       |
-|:------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|
-| RI-1  | X          | X          | X          | X          |
-| RI-2  |            | X          |            | X          |
-| RF-1  |            | X          |            | X          |
-| RF-2  | X          |            | X          | X          |
-| RN-1  |            | X          |            |            |
-| RN-2  | X          | X          | X          |            |
-| ...   |            |            |            |            |
+|          | Usuario    | Fanfic     | Valoración | Comentario | Tag        | Biblioteca | ElemBiblio | Capitulo   | Hilo       |
+|:---------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|
+| R.I.01   |            | X          | X          |            | X          |            |            | X          |            |
+| R.I.02   | X          |            |            |            |            |            |            |            |            |
+| R.I.03   |            |            |            | X          |            |            |            | X          |            |
+| R.I.04   |            |            |            |            |            |            |            |            | X          |
+| R.I.05   |            |            |            | X          |            |            |            |            |            |
+| R.I.06   |            |            |            |            | X          |            |            |            |            |
+| R.F.01   |            |            |            |            |            |            |            |            |            |
+| R.F.02   |            |            |            |            |            |            |            |            |            |
+| R.F.03   |            |            |            |            |            |            |            |            |            |
+| R.F.04   |            |            |            |            |            |            |            |            |            |
+| R.F.05   |            |            |            |            |            |            |            |            |            |
+| R.F.06   |            |            |            |            |            |            |            |            |            |
+| R.F.07   |            |            |            |            |            |            |            |            |            |
+| R.F.08   |            |            |            |            |            |            |            |            |            |
+| R.F.09   |            |            |            |            |            |            |            |            |            |
+| R.F.10   |            |            |            |            |            |            |            |            |            |
+| R.F.11   |            |            |            |            |            |            |            |            |            |
+| R.F.12   |            |            |            |            |            |            |            |            |            |
+| R.N.01   |            |            |            |            |            |            |            |            |            |
+| R.N.02   |            |            |            |            |            |            |            |            |            |
+| R.N.03   |            |            |            |            |            |            |            |            |            |
+| R.N.04   |            |            |            |            |            |            |            |            |            |
+| R.N.05   |            |            |            |            |            |            |            |            |            |
+| R.N.06   |            |            |            |            |            |            |            |            |            |
+| R.N.F.01 |            |            |            |            |            |            |            |            |            |
+| R.N.F.02 |            |            |            |            |            |            |            |            |            |
+| R.N.F.03 |            |            |            |            |            |            |            |            |            |
+| R.N.F.04 |            |            |            |            |            |            |            |            |            |
 
 -- fin entregable 2 --
 

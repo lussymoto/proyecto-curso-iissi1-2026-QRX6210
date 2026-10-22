@@ -446,6 +446,7 @@ para poder leer fanfics independientemente del navegador que utilice.
 | R.I.04   |            |            |            |            |            |            |            |            | X          |
 | R.I.05   |            |            |            | X          |            |            |            |            |            |
 | R.I.06   |            |            |            |            | X          |            |            |            |            |
+| R.I.07   |            |            | X          |            |            |            |            |            |            |
 | R.F.01   |            |            |            |            |            |            |            |            |            |
 | R.F.02   |            |            |            |            |            |            |            |            |            |
 | R.F.03   |            |            |            |            |            |            |            |            |            |

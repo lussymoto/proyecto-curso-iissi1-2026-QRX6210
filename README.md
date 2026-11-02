@@ -440,7 +440,7 @@ para poder leer fanfics independientemente del navegador que utilice.
 
 |          | Usuario    | Fanfic     | Valoración | Comentario | Tag        | Biblioteca | ElemBiblio | Capitulo   | Hilo       |
 |:---------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|
-| R.I.01   |X            | X          |           |            | X          |            |            | X          |            |
+| R.I.01   | x           | X          |           |            | X          |            |            | X          |            |
 | R.I.02   | X          |X            |            |            |            |X            |X            |            |X            |
 | R.I.03   |            |X            |            | X          |            |            |            | X          |            |
 | R.I.04   |X            |X            |            |            |            |            |            |            | X          |
@@ -457,18 +457,15 @@ para poder leer fanfics independientemente del navegador que utilice.
 | R.F.08   |X            |            |            |            |            |            |            |            | X           |
 | R.F.09   | X           |            |            |            |            |            |            |            |            |
 | R.F.10   | X           |  X          |            |            | X           |            |            |            |            |
-| R.F.11   |            |            |            |            |            |            |            |            |            |
-| R.F.12   |            |            |            |            |            |            |            |            |            |
-| R.N.01   |            |            |            |            |            |            |            |            |            |
-| R.N.02   |            |            |            |            |            |            |            |            |            |
-| R.N.03   |            |            |            |            |            |            |            |            |            |
-| R.N.04   |            |            |            |            |            |            |            |            |            |
-| R.N.05   |            |            |            |            |            |            |            |            |            |
-| R.N.06   |            |            |            |            |            |            |            |            |            |
-| R.N.F.01 |            |            |            |            |            |            |            |            |            |
-| R.N.F.02 |            |            |            |            |            |            |            |            |            |
-| R.N.F.03 |            |            |            |            |            |            |            |            |            |
-| R.N.F.04 |            |            |            |            |            |            |            |            |            |
+| R.F.11   | X           |            |            |            | X           |            |            |            |            |
+| R.F.12   |            | X           |            |            | X           |            |            |            |            |
+| R.N.01   | X           |  X          |            |X            |            |            |            | x           |  X          |
+| R.N.02   | X           |            |            |            |            |            |            |            |            |
+| R.N.03   |            |  X          |            |            |            |            |            | X           |            |
+| R.N.04   | X           | X           |            |            |            | X           | X           |            |            |
+| R.N.05   |            |            |            |            |            |            |            | X           |            |
+| R.N.06   |X            | X           |            |            | X           |            |            |            |            |
+
 
 -- fin entregable 2 --
 

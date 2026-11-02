@@ -440,7 +440,7 @@ para poder leer fanfics independientemente del navegador que utilice.
 
 |          | Usuario    | Fanfic     | Valoración | Comentario | Tag        | Biblioteca | ElemBiblio | Capitulo   | Hilo       |
 |:---------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|
-| R.I.01   |            | X          | X          |            | X          |            |            | X          |            |
+| R.I.01   |X            | X          | X          |            | X          |            |            | X          |            |
 | R.I.02   | X          |            |            |            |            |            |            |            |            |
 | R.I.03   |            |            |            | X          |            |            |            | X          |            |
 | R.I.04   |            |            |            |            |            |            |            |            | X          |

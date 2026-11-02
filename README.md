@@ -434,12 +434,27 @@ para poder leer fanfics independientemente del navegador que utilice.
 
 #### 5.2.1 Diagrama de objetos UML
 
-<img width="2200" height="1653" alt="Escenarios de prueba (objetos UML)" src="https://github.com/user-attachments/assets/d17bb0b4-3d14-4f10-a38e-1932abeeb771" />
+<img width="2200" height="1804" alt="Escenarios de prueba (objetos UML)" src="https://github.com/user-attachments/assets/cbabfbc6-e3e5-4695-b4ae-0a35dd4c366e" />
 
 #### 5.2.2 Descripción textual
 
-En este escenario de prueba, partimos de tres usuarios:
-- Acute_snake: con 
+En este escenario de prueba, tenemos a tres usuarios: u1 (snail_snake), u2 (Sh4kesp3are) y u3 (AmanteProsa). Los tres tienen su nombre, email y contraseña.
+
+- u1 y u2 tienen un fanfic creado (f1 y f2). u3 no ha creado ninguno.
+- u1 y u3 tienen un fanfic almacenado en su biblioteca, que resulta ser f2. u2 no ha leído ni guardado ninguno.
+- El fanfic de u1 (f1) tiene:
+  - 1 capítulo
+  - Su tag obligatorio de tipo Fandom ("Bad guys")
+  - Un tag de tipo Personaje ("Mr. Snake")
+  - Un tag de tipo Género ("comedia")
+- El fanfic de u2 (f2) tiene:
+  - 2 capítulos
+  - Su tag obligatorio de tipo Fandom ("Hamlet")
+  - El mismo tag de tipo Género ("comedia"), ambos fanfics comparten el tag
+  - Un tag de tipo Extra ("en prosa")
+- u3 ha dejado un comentario en el Capítulo 1 (c1) de f2 y ha dejado una valoración en el fanfic con una puntuación de 7,8
+- u1 ha empezado un hilo (h1) sobre f2
+- u2 ha dejado un comentario en el hilo h1 sobre su fanfic, y u1 le ha contestado con un nuevo comentario 
 
 
 ## 6. Matrices de trazabilidad

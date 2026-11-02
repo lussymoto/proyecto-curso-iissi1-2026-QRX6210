@@ -432,7 +432,15 @@ para poder leer fanfics independientemente del navegador que utilice.
 
 ### 5.2. Escenarios de prueba
 
-- con descripción textual y diagrama de objetos UML.
+#### 5.2.1 Diagrama de objetos UML
+
+<img width="2200" height="1653" alt="Escenarios de prueba (objetos UML)" src="https://github.com/user-attachments/assets/d17bb0b4-3d14-4f10-a38e-1932abeeb771" />
+
+#### 5.2.2 Descripción textual
+
+En este escenario de prueba, partimos de tres usuarios:
+- Acute_snake: con 
+
 
 ## 6. Matrices de trazabilidad
 

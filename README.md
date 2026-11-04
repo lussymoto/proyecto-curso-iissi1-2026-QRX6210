@@ -434,7 +434,7 @@ para poder leer fanfics independientemente del navegador que utilice.
 
 #### 5.2.1 Diagrama de objetos UML
 
-<img width="2200" height="2550" alt="Diagramas de objetos UML" src="https://github.com/user-attachments/assets/c8eba771-d998-4f7c-b79e-e277f0177be7" />
+<img width="2200" height="1879" alt="Diagramas de objetos UML" src="https://github.com/user-attachments/assets/5a3a5ea3-f3de-45f0-8ee5-1f0ed44d424d" />
 
 #### 5.2.2 Descripción textual
 

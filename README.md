@@ -428,14 +428,13 @@ para poder leer fanfics independientemente del navegador que utilice.
 
 ### 5.1. Diagramas de clases UML
 
-- con restricciones.
 <img width="1272" height="1143" alt="Diagrama de clases UML" src="https://github.com/user-attachments/assets/87dc9554-22d9-4416-a7cd-7a9d68512e77" />
 
 ### 5.2. Escenarios de prueba
 
 #### 5.2.1 Diagrama de objetos UML
 
-<img width="2200" height="1922" alt="Diagramas de objetos UML" src="https://github.com/user-attachments/assets/84de3ae4-c936-4e03-aea0-2014d76f0a14" />
+<img width="2200" height="2550" alt="Diagramas de objetos UML" src="https://github.com/user-attachments/assets/c8eba771-d998-4f7c-b79e-e277f0177be7" />
 
 #### 5.2.2 Descripción textual
 

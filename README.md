@@ -337,6 +337,7 @@ quiero que un usuario que no esté registrado sólo pueda actuar como lector,
 para que no se puedan publica fanfics, hilos y comentarios sin asociarlos a una cuenta.
 
 **Prueba de aceptación**
+- Un usuario se registra y puede publicar fanfics y crear hilos
 - Un usuario no registrado puede leer fanfics, capítulos, hilos y comentarios.
 - Un usuario no registrado no puede publicar fanfics ni crear hilos.
 - Un usuario no registrado no puede publicar comentarios.
